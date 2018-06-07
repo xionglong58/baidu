@@ -1,0 +1,25 @@
+p{
+    display: inline;
+} 
+.block p{
+    display: block;    
+}
+h1{
+    display:absolute;
+}
+#content{
+    position: absolute;
+    left:12%;  
+}
+#title{
+    position: absolute;
+    background-color:#2C81F0;
+    width: 10%;
+    height: 70%;
+}
+h1{
+    color:white;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
