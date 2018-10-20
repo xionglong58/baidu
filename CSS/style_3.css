@@ -1,0 +1,35 @@
+p{
+    display: inline;
+} 
+.block{
+    display: inline;    
+}
+#basic-info,{
+    display:inline;
+}
+#content{
+    display: block;
+}
+#title{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+h1{
+    left:5px;
+    color: white;
+}
+h2{
+    display: inline;
+    background-color: #CCC8C8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#information{
+    display: block;
+}
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
