@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(118, 182, 182);
+}
+
+#title {
+    text-align: center;
+    margin: 2% 0;
+}
+
+#description {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#main {
+    width: 50%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+label,
+textarea {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: inline;
+}
+
+#survey-form {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    display: grid;
+    grid-template-columns: 50% auto;
+    justify-items: stretch;
+    margin-top: 3%;
+    text-align: right;
+}
+
+li {
+    margin-top: 3%;
+}
+
+.block_ele {
+    display: grid;
+    grid-template-columns: 50% auto;
+    margin-top: 3%;
+    justify-items: stretch;
+}
+
+.block_ele p {
+    width: 100%;
+    text-align: right;
+}
+
+input,
+option,
+select,
+textarea {
+    margin-left: 4%;
+}
+
+#submit {
+    margin: 2% 0;
+    border-radius: 5px;
+    background-color: rgb(14, 199, 231);
+    width: auto;
+    color: aliceblue;
+    font-weight: 600;
+    justify-self: center;
+    padding: 2%;
+}
+
+@media (max-width:1200px) {
+    #survey-form {
+        display: grid;
+        width: 100%;
+    }
+    .block_ele,
+    label {
+        display: flex;
+        flex-wrap: wrap;
+        /* grid-template-rows: 100%; */
+        justify-content: start;
+        width: 100%;
+        text-align: left;
+    }
+    .block_ele p {
+        text-align: left;
+        width: 100%;
+    }
+    #submit {
+        width: auto;
+    }
+    li {
+        width: 150%;
+    }
+    #mian {
+        min-width: 80%;
+    }
+    textarea {
+        width: 100%;
+        margin: 0 10%;
+    }
+}

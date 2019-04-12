@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+
+#main-doc {
+    background-color: rgb(252, 252, 252);
+}
+
+nav li,
+nav h1 {
+    padding: 5%;
+    border-top: 2px solid rgb(131, 130, 130);
+    padding-left: 10%;
+}
+
+#main-doc {
+    position: relative;
+    border-left: 5px solid rgb(192, 191, 191);
+    min-width: 10px;
+    width: 80%;
+    min-width: 2%;
+    padding-left: 2.5%;
+    left: 15%;
+}
+
+h2 {
+    margin-top: 2%;
+}
+
+article ul {
+    padding-left: 3%;
+}
+
+.main-section ul,
+.main-section p,
+.main-section pre {
+    margin-top: 2%;
+}
+
+.main-section pre {
+    background-color: rgb(219, 218, 218);
+}
+
+@media (max-width:900px) {
+    #main {
+        width: 100%;
+    }
+    #navbar {
+        width: 100%;
+        height: 400px;
+        overflow: scroll;
+        position: static;
+        margin: 0 auto;
+        border-left: 2px solid rgb(151, 151, 151);
+        border-right: 2px solid rgb(175, 175, 175);
+    }
+    #main-doc {
+        width: 80%;
+        left: 0;
+        margin: 0 auto;
+        border-left: none;
+    }
+    nav li,
+    nav h1 {
+        padding: 2%;
+    }
+}

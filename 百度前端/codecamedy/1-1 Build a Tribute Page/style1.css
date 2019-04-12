@@ -1,0 +1,97 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #main {
+        display: grid;
+        grid-template-rows: 1fr auto auto auto auto;
+        justify-items: center;
+        background-color: rgb(235, 235, 235);
+        border-radius: 5px;
+        margin: 20px 10px;
+    }
+    
+    #image {
+        /* width: 1024px; */
+        max-width: 140%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    #tribute-info {
+        width: 40%;
+        max-width: 100%;
+    }
+    
+    #tribute-info h3 {
+        padding: 5% 0;
+    }
+    
+    #tribute-info li {
+        padding: 1% 0;
+    }
+    
+    #title h1 {
+        padding-top: 5%;
+    }
+    
+    #title p {
+        padding-bottom: 5%;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    #nothing {
+        text-align: center;
+        /* background-color: aqua; */
+        display: block;
+        margin: 0 auto;
+    }
+    
+    #nothing p {
+        margin: 1% 0;
+    }
+    
+    #img-caption {
+        display: block;
+        margin: 0 auto;
+        padding: 1% 0;
+    }
+    
+    #img-div {
+        background-color: rgb(252, 251, 250);
+        width: 98%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    @media (max-width:800px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #tribute-info {
+            width: 90%;
+            max-width: 100%;
+        }
+        #nothing {
+            width: 90%;
+            max-width: 100%;
+        }
+        #image {
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+    /* 
+    #tribute-link {
+        background-color: rgb(216, 161, 88);
+    }
+
+    #auther {
+        background-color: rgb(209, 23, 131);
+    } */

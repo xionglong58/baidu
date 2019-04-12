@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+#show {
+    display: block;
+    position: ab;
+    height: 50%;
+    background-color: #FFF;
+    margin: 20px 40px;
+    border: 2px solid rgb(192, 191, 191);
+    text-align: center;
+}
+
+#control {
+    display: block;
+    position: static;
+    height: 50%;
+    text-align: center;
+}
+
+#control input {
+    border: 2px solid rgb(192, 191, 191);
+    padding: 10px;
+    width: 20%;
+}
+
+#container {
+    margin-top: 10px;
+}
+
+@keyframes mymove {
+    from {
+        right: 0%;
+    }
+    to {
+        right: 80%;
+    }
+}
+
+.text-show,
+.text-show1 {
+    text-align: center;
+    position: relative;
+    background-color: aquamarine;
+}
+
+.btn {
+    margin: 0px 10px;
+}
+
+.text-show1 div,
+.text-show div {
+    animation: mymove 10s infinite;
+    display: block;
+    position: absolute;
+    width: 20%;
+    animation-timing-function: ease-in-out;
+    word-break: keep-all;
+}
